@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+}
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+}
+.all_contury_data_main{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.total_case_main{
+    margin-top: 10px;
+    width: 330px;
+    height: 120px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+.total_case_and_icon_main{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid bisque; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total_case_text{
+    width: 250px;
+    height: 25px;
+    /* border: 1px solid black; */
+    color: white;
+    font-size: 14px;
+    display: flex;
+    
+    align-items: center;
+}
+.total_case_icon{
+    width: 25px;
+    height: 25px;
+    /* border: 1px solid black; */
+}
+
+.total_case_icon >img{
+    width: 100%;
+    height: 100%;
+}
+
+.total_case_count{
+    width: 100%;
+    height: 48px;
+    /* border: 1px solid black; */
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last_update_date{
+width: 100%;
+height: 22px;
+/* border: 1px solid black; */
+font-size: 14px;
+color: white;
+
+}
+
+.total_death_main{
+    margin-top: 10px;  
+    padding: 10px; 
+    width: 330px;
+    height: 120px;
+    background-color: rgb(210, 35, 35);
+    border-radius: 10px;
+}
+.total_recovery_main{
+    margin-top: 10px;
+    padding: 10px;
+    width: 330px;
+    height: 120px;
+    background-color: rgb(18, 162, 18);
+    border-radius: 10px;
+}
+
+
+/* input{
+    width: 400px;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+    color: red;
+} */
